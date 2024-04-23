@@ -1,0 +1,305 @@
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul.ap-list-item-spacing {
+    margin: 0;
+}
+
+ul.ap-list-item-spacing > li {
+    margin-bottom: 10px;
+}
+
+ul.ap-list-item-specs-spacing {
+    margin-left: 15px;
+}
+
+.ap-mark-as-item:before {
+    content: "* ";
+    font-size: 75%;
+}
+
+.TheLegion-page {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    visibility: hidden;
+}
+
+.TheLegion-page_ready {
+    visibility: visible;
+}
+
+.ap-page-header {
+    position: relative;
+}
+
+.ap-page-header__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.ap-tools {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding-right: 15px;
+}
+
+.ap-lang-switcher {
+    margin-bottom: 30px;
+}
+
+.ap-lang-switcher > li {
+    margin-bottom: 10px;
+}
+
+html[lang="ru"] .ap-lang-switcher__link_ru,
+html[lang="en"] .ap-lang-switcher__link_en {
+    pointer-events: none;
+    cursor: default;
+    color: #777;
+}
+
+.ap-tags-bar {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ap-tags-bar:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.ap-tags-bar__toggle {
+    color: #333 !important;
+}
+
+.ap-tags-bar__toggle_active {
+    color: #337ab7 !important;
+}
+
+.ap-anchor-block {
+    position: relative;
+}
+
+.ap-anchor-block__anchor {
+    position: absolute;
+    display: block;
+    height: 100%;
+    margin-left: -1em;
+    padding-right: 0.5em;
+    text-decoration: none !important;
+    opacity: 0;
+}
+
+.ap-anchor-block:hover .ap-anchor-block__anchor {
+    opacity: 0.5;
+}
+
+.ap-anchor-block__anchor:hover {
+    opacity: 1 !important;
+}
+
+.ap-anchor-block__anchor::after {
+    content: "#"
+}
+
+.ap-intro {
+    padding-top: 10px;
+}
+
+.ap-block-header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.ap-block-header_plain {
+    margin-top: 0;
+}
+
+.ap-block-header__title {
+    margin-top: -4px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.ap-block-header__small-title {
+    margin-top: -2px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.ap-block-header__text {
+    margin-bottom: 10px;
+}
+
+.ap-project-description {
+    overflow: visible;
+}
+
+.ap-project-description .media-right {
+    padding-left: 20px;
+}
+
+.ap-project-preview {
+    display: block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 5px;
+    outline: 0 !important;
+    color: #fff !important;
+    background-color: #fff;
+    text-decoration: none !important;
+    page-break-inside: avoid;
+}
+
+.ap-project-preview:hover {
+    z-index: 10;
+}
+
+.ap-project-preview__image {
+    display: block;
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    overflow: hidden;
+
+    border: 1px solid #337ab7;
+    border: 1px solid rgba(35, 82, 124, .5);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0 0 6px rgba(35, 82, 124, .5);
+    -moz-box-shadow: 0 0 6px rgba(35, 82, 124, .5);
+    box-shadow: 0 0 6px rgba(35, 82, 124, .5);
+}
+
+.ap-project-preview__image:hover {
+    left: -2px;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+
+    border: 1px solid #23527c;
+    border: 1px solid rgba(35, 82, 124, .9);
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-box-shadow: 0 0 6px rgba(35, 82, 124, .9);
+    -moz-box-shadow: 0 0 6px rgba(35, 82, 124, .9);
+    box-shadow: 0 0 6px rgba(35, 82, 124, .9);
+}
+
+.ap-project-preview__image__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* Bootstrap print fix */
+@media print {
+    a,
+    a:visited {
+        text-decoration: none !important;
+        color: #23527c !important;
+    }
+
+    a[href]:after {
+        content: "" !important;
+    }
+
+    abbr[title]:after {
+        content: "" !important;
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "" !important;
+    }
+}
+
+/* print */
+@media print {
+    .TheLegion-page {
+        margin: 0 !important;
+    }
+
+    a {
+        white-space: nowrap !important;
+    }
+
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left !important;
+    }
+
+    .col-sm-12 {
+        width: 100% !important;
+    }
+
+    .col-sm-11 {
+        width: 91.66666667% !important;
+    }
+
+    .col-sm-10 {
+        width: 83.33333333% !important;
+    }
+
+    .col-sm-9 {
+        width: 75% !important;
+    }
+
+    .col-sm-8 {
+        width: 66.66666667% !important;
+    }
+
+    .col-sm-7 {
+        width: 58.33333333% !important;
+    }
+
+    .col-sm-6 {
+        width: 50% !important;
+    }
+
+    .col-sm-5 {
+        width: 41.66666667% !important;
+    }
+
+    .col-sm-4 {
+        width: 33.33333333% !important;
+    }
+
+    .col-sm-3 {
+        width: 25% !important;
+    }
+
+    .col-sm-2 {
+        width: 16.66666667% !important;
+    }
+
+    .col-sm-1 {
+        width: 8.33333333% !important;
+    }
+}
