@@ -38,10 +38,14 @@
 - MySQL/MariaDB
 - DevOps ([доп. образование)](https://habr.com/ru/news/686592/)
 
-### [JetBrains Academy, 02.2023](https://www.jetbrains.com/academy/) - Настоящее время
+### [JetBrains Academy, 02.2023](https://www.jetbrains.com/academy/) - 06.2024
 ### [Яндекс.Практикум, 10.2023](https://practicum.yandex.ru/) - Настоящее время
 
 # Опыт работы
+
+### Младший Java-разработчик — [Яндекс Крауд](https://cristalix.gg/)
+
+Апрель 2024 - Настоящее время
 
 ### Ассесор (Разметка данных) — [Яндекс Крауд](https://yandex.ru/project/remote-work/)
 
