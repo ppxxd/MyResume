@@ -86,14 +86,14 @@
 
 Технологии: Java, JavaFX.
 
-### **Социальная сеть (Яндекс.Практикум)** — [Filmorate](https://github.com/ppxxd/java-filmorate)
+### **Аналог социальной сети** — [Filmorate](https://github.com/ppxxd/java-filmorate)
 
 Вместе с командой разработал Spring Boot приложение для социальной сети, которая помогает выбирать фильмы на основе ваших просмотров и оценок. 
 С нуля реализовал бизнес-логику для данного приложения
 
 Технологии: Java, Spring Boot, H2, Postman, REST API.
 
-### **Афиша мероприятий (Яндекс.Практикум)** — [Explore With Me](https://github.com/ppxxd/java-explore-with-me)
+### **Аналог афиши мероприятий** — [Explore With Me](https://github.com/ppxxd/java-explore-with-me)
 
 Spring Boot приложение афиши в котором можно предложить какое-либо событие от выставки до похода в кино и собрать компанию для участия в нём.
 Состоит из двух сервисов:
