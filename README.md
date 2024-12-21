@@ -72,7 +72,7 @@
 
 Технологии: Java +(Concurrency), MySQL/MariaDB, MongoDB, JS.
 
-### Ассесор (Разметка данных) — [Яндекс Крауд](https://yandex.ru/project/remote-work/)
+### Промпт-инженер — [Яндекс Крауд](https://yandex.ru/project/remote-work/)
 
 Июль 2023 - Апрель 2024
 
