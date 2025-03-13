@@ -2,6 +2,7 @@
 
 Москва, Россия
 
+[Мобильный телефон: +79103503872](tel:+79103503872)
 [andrey.krutskikh18@gmail.com / ](mailto:andrey.krutskikh18@gmail.com)[t.me/ppxxd](https://t.me/ppxxd)
 
 [github.com/ppxxd](https://github.com/ppxxd)
@@ -23,7 +24,11 @@
 
 Языки программирования: Java/Kotlin, Python, SQL.
 
-Хранилища данных: PostgreSQL, MySQL/MariaDB, MongoDB, Redis. Фреймворки: Spring (Boot, MVC).
+Хранилища данных: PostgreSQL, MySQL/MariaDB, MongoDB, Redis. 
+
+Фреймворки: Spring (Boot, Web, Data, Security).
+
+Тестирование: JUnit, Mockito.
 
 Контроль версий: Git.
 
@@ -31,7 +36,7 @@
 
 ОС: Mac OS, Linux, Windows.
 
-Прочее: Maven/Gradle, Docker.
+Прочее: Maven/Gradle, Docker, Thymeleaf, Hibernate.
 
 # Образование
 
